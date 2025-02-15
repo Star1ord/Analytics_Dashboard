@@ -7,8 +7,6 @@ The project incorporates concepts from the **Advanced Frontend** curriculum, as 
 
 ## **🚀 Key Features**
 - **Dynamic Charts & Graphs**: Uses React Chart.js to visualize business performance.
-- **Kazakhstani Companies & Names**: Updated dataset with **Kazakhstani IT and marketing companies**.
-- **Currency Conversion**: All dollar ($) values converted to **tenge (₸)**.
 - **Responsive Design**: Fully optimized for **desktop, tablets, and mobile** using Tailwind CSS.
 - **Dark Mode Support**: Seamlessly switches between light and dark themes.
 - **Optimized Performance**: Utilizes **Next.js server-side rendering (SSR)** for better speed.
@@ -37,29 +35,18 @@ analytics-dashboard/
 │-- README.md            # Project documentation
 ```
 
-## **🔧 Installation & Setup**
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/TechSis01/analytics-dashboard.git
-   cd analytics-dashboard
-   ```
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-3. **Start the development server:**
+## **🔧Setup**
+**Start the development server:**
    ```sh
    npm run dev
    ```
-4. **Open in browser:**
+**Open in browser:**
    ```
    http://localhost:3000/
    ```
 
 ## **🌟 How It Works**
 - The dashboard fetches **company performance data** and **financial statistics**.
-- **Kazakhstani companies** are used instead of international brands.
-- Values are converted to **tenge (₸)**, with calculations applied (`x10` from USD).
 - The UI adjusts dynamically based on screen size using **Tailwind CSS media queries**.
 - User interactions and scenarios align with UX principles from **Practical_1.pdf**.
 
@@ -78,14 +65,6 @@ This project aligns with the **Advanced Frontend** assessment criteria:
 - **Global State Management**: Implement **Redux or Zustand** for better data flow.
 - **Localization**: Expand translations to support **Kazakh and Russian languages**.
 - **Automated Testing**: Add Jest & Cypress test coverage.
-
-## **🤝 Contribution Guidelines**
-1. **Fork the repository** and create a new feature branch.
-2. **Make your changes** and test them.
-3. **Submit a pull request** with a clear description.
-
-## **📜 License**
-This project is licensed under the **MIT License**.
 
 ---
 🚀 **Developed for the Advanced Frontend course, incorporating Kazakhstani business insights and UI/UX design best practices.**
