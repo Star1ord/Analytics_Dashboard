@@ -23,16 +23,29 @@ The project incorporates concepts from the **Advanced Frontend** curriculum, as 
 ## **📂 Project Structure**
 ```
 analytics-dashboard/
-│-- pages/               # Next.js page-based routing
-│   │-- index.js         # Homepage
-│   │-- dashboard.js     # Dashboard main page
-│-- components/          # Reusable UI components
-│   │-- Sidebar.js       # Navigation sidebar
-│   │-- ChartComponent.js # Chart visualization
-│-- public/              # Static assets (logos, images)
-│-- styles/              # Tailwind CSS styles
+│-- .next/               # Next.js build files
+│-- app/                 # Main application directory
+│   │-- Components/      # Reusable UI components
+│   │-- favicon.ico      # Favicon
+│   │-- globals.css      # Global CSS styles
+│   │-- layout.js        # Main layout configuration
+│   │-- loading.js       # Loading component
+│   │-- page.js          # Main page structure
+│-- node_modules/        # Installed dependencies
+│-- public/              # Static assets (icons, images)
+│-- .eslintrc.json       # ESLint configuration
+│-- .gitignore           # Git ignore rules
+│-- android-icons/       # Mobile device icons
+│-- jsconfig.json        # JavaScript configuration
+│-- next.config.mjs      # Next.js configuration
+│-- package-lock.json    # Lock file for npm dependencies
 │-- package.json         # Project dependencies
+│-- postcss.config.js    # PostCSS configuration
 │-- README.md            # Project documentation
+│-- site.webmanifest     # Web app manifest
+│-- tailwind.config.js   # Tailwind CSS configuration
+│-- tsconfig.json        # TypeScript configuration
+│-- webpack.config.js    # Webpack configuration
 ```
 
 ## **🔧Setup**
